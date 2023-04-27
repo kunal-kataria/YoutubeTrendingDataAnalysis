@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>e539d6b53bdd4e859d4b899079d4d4ef</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="part-i-data-gathering-and-preprocessing"
+class="cell markdown">
+<h1>Part I: Data Gathering and Preprocessing</h1>
+</section>
+<section id="importing-libraries" class="cell markdown">
+<h3>Importing Libraries</h3>
+</section>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> collections</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.feature_extraction.text <span class="im">import</span> CountVectorizer</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score</span></code></pre></div>
+</div>
+<section id="importing-scikit-learn-classifiers" class="cell markdown">
+<h3>Importing scikit-learn classifiers</h3>
+</section>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.naive_bayes <span class="im">import</span> MultinomialNB</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.svm <span class="im">import</span> SVC</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neighbors <span class="im">import</span> KNeighborsClassifier</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeClassifier</span></code></pre></div>
+</div>
+<section id="importing-data" class="cell markdown">
+<h3>Importing Data</h3>
+</section>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>video <span class="op">=</span> pd.read_csv(<span class="st">&quot;USvideos.csv&quot;</span>, header<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>video.head(<span class="dv">5</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>video_id</th>
+      <th>trending_date</th>
+      <th>title</th>
+      <th>channel_title</th>
+      <th>category_id</th>
+      <th>publish_time</th>
+      <th>tags</th>
+      <th>views</th>
+      <th>likes</th>
+      <th>dislikes</th>
+      <th>comment_count</th>
+      <th>thumbnail_link</th>
+      <th>comments_disabled</th>
+      <th>ratings_disabled</th>
+      <th>video_error_or_removed</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2kyS6SvSYSE</td>
+      <td>17.14.11</td>
+      <td>WE WANT TO TALK ABOUT OUR MARRIAGE</td>
+      <td>CaseyNeistat</td>
+      <td>22</td>
+      <td>2017-11-13T17:13:01.000Z</td>
+      <td>SHANtell martin</td>
+      <td>748374</td>
+      <td>57527</td>
+      <td>2966</td>
+      <td>15954</td>
+      <td>https://i.ytimg.com/vi/2kyS6SvSYSE/default.jpg</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>SHANTELL'S CHANNEL - https://www.youtube.com/s...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1ZAPwfrtAFY</td>
+      <td>17.14.11</td>
+      <td>The Trump Presidency: Last Week Tonight with J...</td>
+      <td>LastWeekTonight</td>
+      <td>24</td>
+      <td>2017-11-13T07:30:00.000Z</td>
+      <td>last week tonight trump presidency|"last week ...</td>
+      <td>2418783</td>
+      <td>97185</td>
+      <td>6146</td>
+      <td>12703</td>
+      <td>https://i.ytimg.com/vi/1ZAPwfrtAFY/default.jpg</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>One year after the presidential election, John...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>5qpjK5DgCt4</td>
+      <td>17.14.11</td>
+      <td>Racist Superman | Rudy Mancuso, King Bach &amp; Le...</td>
+      <td>Rudy Mancuso</td>
+      <td>23</td>
+      <td>2017-11-12T19:05:24.000Z</td>
+      <td>racist superman|"rudy"|"mancuso"|"king"|"bach"...</td>
+      <td>3191434</td>
+      <td>146033</td>
+      <td>5339</td>
+      <td>8181</td>
+      <td>https://i.ytimg.com/vi/5qpjK5DgCt4/default.jpg</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>WATCH MY PREVIOUS VIDEO ▶ \n\nSUBSCRIBE ► http...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>puqaWrEC7tY</td>
+      <td>17.14.11</td>
+      <td>Nickelback Lyrics: Real or Fake?</td>
+      <td>Good Mythical Morning</td>
+      <td>24</td>
+      <td>2017-11-13T11:00:04.000Z</td>
+      <td>rhett and link|"gmm"|"good mythical morning"|"...</td>
+      <td>343168</td>
+      <td>10172</td>
+      <td>666</td>
+      <td>2146</td>
+      <td>https://i.ytimg.com/vi/puqaWrEC7tY/default.jpg</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>Today we find out if Link is a Nickelback amat...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>d380meD0W0M</td>
+      <td>17.14.11</td>
+      <td>I Dare You: GOING BALD!?</td>
+      <td>nigahiga</td>
+      <td>24</td>
+      <td>2017-11-12T18:01:41.000Z</td>
+      <td>ryan|"higa"|"higatv"|"nigahiga"|"i dare you"|"...</td>
+      <td>2095731</td>
+      <td>132235</td>
+      <td>1989</td>
+      <td>17518</td>
+      <td>https://i.ytimg.com/vi/d380meD0W0M/default.jpg</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>I know it's been a while since we did this sho...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="deleting-unused-columns-and-renaming-the-remaining-columns"
+class="cell markdown">
+<h3>Deleting unused columns and renaming the remaining columns</h3>
+</section>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>new_columns <span class="op">=</span> [<span class="st">&#39;title&#39;</span>, <span class="st">&#39;category_id&#39;</span>]</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>new_video <span class="op">=</span> video[new_columns]</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>new_video.to_csv(<span class="st">&quot;USvideos.csv&quot;</span>, index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>new_video <span class="op">=</span> pd.read_csv(<span class="st">&quot;USvideos.csv&quot;</span>, header<span class="op">=</span><span class="dv">0</span>, names<span class="op">=</span>[<span class="st">&#39;Title&#39;</span>, <span class="st">&#39;Category_ID&#39;</span>])</span></code></pre></div>
+</div>
+<section id="importing-json-file" class="cell markdown">
+<h3>Importing JSON file</h3>
+</section>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>category_json <span class="op">=</span> pd.read_json(<span class="st">&quot;US_category_id.json&quot;</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>category_json.head(<span class="dv">5</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>kind</th>
+      <th>etag</th>
+      <th>items</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>youtube#videoCategoryListResponse</td>
+      <td>"m2yskBQFythfE4irbTIeOgYYfBU/S730Ilt-Fi-emsQJv...</td>
+      <td>{'kind': 'youtube#videoCategory', 'etag': '"m2...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>youtube#videoCategoryListResponse</td>
+      <td>"m2yskBQFythfE4irbTIeOgYYfBU/S730Ilt-Fi-emsQJv...</td>
+      <td>{'kind': 'youtube#videoCategory', 'etag': '"m2...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>youtube#videoCategoryListResponse</td>
+      <td>"m2yskBQFythfE4irbTIeOgYYfBU/S730Ilt-Fi-emsQJv...</td>
+      <td>{'kind': 'youtube#videoCategory', 'etag': '"m2...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>youtube#videoCategoryListResponse</td>
+      <td>"m2yskBQFythfE4irbTIeOgYYfBU/S730Ilt-Fi-emsQJv...</td>
+      <td>{'kind': 'youtube#videoCategory', 'etag': '"m2...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>youtube#videoCategoryListResponse</td>
+      <td>"m2yskBQFythfE4irbTIeOgYYfBU/S730Ilt-Fi-emsQJv...</td>
+      <td>{'kind': 'youtube#videoCategory', 'etag': '"m2...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<section
+id="creating-a-list-of-dictionaries-with-id-and-category-label-mapping"
+class="cell markdown">
+<h3>Creating a list of Dictionaries with ID and Category label
+mapping</h3>
+</section>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>category_dict <span class="op">=</span> [{<span class="st">&#39;id&#39;</span>: item[<span class="st">&#39;id&#39;</span>], <span class="st">&#39;title&#39;</span>: item[<span class="st">&#39;snippet&#39;</span>][<span class="st">&#39;title&#39;</span>]} <span class="cf">for</span> item <span class="kw">in</span> category_json[<span class="st">&#39;items&#39;</span>]]</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>category_dict</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<pre><code>[{&#39;id&#39;: &#39;1&#39;, &#39;title&#39;: &#39;Film &amp; Animation&#39;},
+ {&#39;id&#39;: &#39;2&#39;, &#39;title&#39;: &#39;Autos &amp; Vehicles&#39;},
+ {&#39;id&#39;: &#39;10&#39;, &#39;title&#39;: &#39;Music&#39;},
+ {&#39;id&#39;: &#39;15&#39;, &#39;title&#39;: &#39;Pets &amp; Animals&#39;},
+ {&#39;id&#39;: &#39;17&#39;, &#39;title&#39;: &#39;Sports&#39;},
+ {&#39;id&#39;: &#39;18&#39;, &#39;title&#39;: &#39;Short Movies&#39;},
+ {&#39;id&#39;: &#39;19&#39;, &#39;title&#39;: &#39;Travel &amp; Events&#39;},
+ {&#39;id&#39;: &#39;20&#39;, &#39;title&#39;: &#39;Gaming&#39;},
+ {&#39;id&#39;: &#39;21&#39;, &#39;title&#39;: &#39;Videoblogging&#39;},
+ {&#39;id&#39;: &#39;22&#39;, &#39;title&#39;: &#39;People &amp; Blogs&#39;},
+ {&#39;id&#39;: &#39;23&#39;, &#39;title&#39;: &#39;Comedy&#39;},
+ {&#39;id&#39;: &#39;24&#39;, &#39;title&#39;: &#39;Entertainment&#39;},
+ {&#39;id&#39;: &#39;25&#39;, &#39;title&#39;: &#39;News &amp; Politics&#39;},
+ {&#39;id&#39;: &#39;26&#39;, &#39;title&#39;: &#39;Howto &amp; Style&#39;},
+ {&#39;id&#39;: &#39;27&#39;, &#39;title&#39;: &#39;Education&#39;},
+ {&#39;id&#39;: &#39;28&#39;, &#39;title&#39;: &#39;Science &amp; Technology&#39;},
+ {&#39;id&#39;: &#39;29&#39;, &#39;title&#39;: &#39;Nonprofits &amp; Activism&#39;},
+ {&#39;id&#39;: &#39;30&#39;, &#39;title&#39;: &#39;Movies&#39;},
+ {&#39;id&#39;: &#39;31&#39;, &#39;title&#39;: &#39;Anime/Animation&#39;},
+ {&#39;id&#39;: &#39;32&#39;, &#39;title&#39;: &#39;Action/Adventure&#39;},
+ {&#39;id&#39;: &#39;33&#39;, &#39;title&#39;: &#39;Classics&#39;},
+ {&#39;id&#39;: &#39;34&#39;, &#39;title&#39;: &#39;Comedy&#39;},
+ {&#39;id&#39;: &#39;35&#39;, &#39;title&#39;: &#39;Documentary&#39;},
+ {&#39;id&#39;: &#39;36&#39;, &#39;title&#39;: &#39;Drama&#39;},
+ {&#39;id&#39;: &#39;37&#39;, &#39;title&#39;: &#39;Family&#39;},
+ {&#39;id&#39;: &#39;38&#39;, &#39;title&#39;: &#39;Foreign&#39;},
+ {&#39;id&#39;: &#39;39&#39;, &#39;title&#39;: &#39;Horror&#39;},
+ {&#39;id&#39;: &#39;40&#39;, &#39;title&#39;: &#39;Sci-Fi/Fantasy&#39;},
+ {&#39;id&#39;: &#39;41&#39;, &#39;title&#39;: &#39;Thriller&#39;},
+ {&#39;id&#39;: &#39;42&#39;, &#39;title&#39;: &#39;Shorts&#39;},
+ {&#39;id&#39;: &#39;43&#39;, &#39;title&#39;: &#39;Shows&#39;},
+ {&#39;id&#39;: &#39;44&#39;, &#39;title&#39;: &#39;Trailers&#39;}]</code></pre>
+</div>
+</div>
+<section id="creating-a-dataframe-for-the-dictionary"
+class="cell markdown">
+<h3>Creating a DataFrame for the Dictionary</h3>
+</section>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>category_df <span class="op">=</span> pd.DataFrame(category_dict)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>categories <span class="op">=</span> category_df.rename(index<span class="op">=</span><span class="bu">str</span>, columns <span class="op">=</span> {<span class="st">&quot;id&quot;</span>:<span class="st">&quot;Category_ID&quot;</span>,<span class="st">&quot;title&quot;</span>:<span class="st">&quot;Category&quot;</span>})</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>categories.head(<span class="dv">5</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Category_ID</th>
+      <th>Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>Film &amp; Animation</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>Autos &amp; Vehicles</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10</td>
+      <td>Music</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>15</td>
+      <td>Pets &amp; Animals</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>17</td>
+      <td>Sports</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="part-ii-training" class="cell markdown">
+<h1>Part II: Training</h1>
+</section>
+<section id="splitting-title-into-string-of-words-using-countvectorizer"
+class="cell markdown">
+<h3>Splitting 'title' into string of words using CountVectorizer</h3>
+</section>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>vector <span class="op">=</span> CountVectorizer()</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>counts <span class="op">=</span> vector.fit_transform(new_video[<span class="st">&#39;Title&#39;</span>].values)</span></code></pre></div>
+</div>
+<section
+id="using-various-classification-models-and-targetting-category"
+class="cell markdown">
+<h3>Using various classification models and targetting 'Category'</h3>
+</section>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>NB_Model <span class="op">=</span> MultinomialNB()</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>RFC_Model <span class="op">=</span> RandomForestClassifier()</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>SVC_Model <span class="op">=</span> SVC()</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>KNC_Model <span class="op">=</span> KNeighborsClassifier()</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>DTC_Model <span class="op">=</span> DecisionTreeClassifier()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>output <span class="op">=</span> new_video[<span class="st">&#39;Category_ID&#39;</span>].values</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>NB_Model.fit(counts,output)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<pre><code>MultinomialNB()</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>RFC_Model.fit(counts,output)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<pre><code>RandomForestClassifier()</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>SVC_Model.fit(counts,output)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+<pre><code>SVC()</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>KNC_Model.fit(counts,output)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+<pre><code>KNeighborsClassifier()</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>DTC_Model.fit(counts,output)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<pre><code>DecisionTreeClassifier()</code></pre>
+</div>
+</div>
+<section id="checking-the-accuracy-using-9010-traintest-split"
+class="cell markdown">
+<h3>Checking the accuracy using 90/10 train/test split</h3>
+</section>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> counts</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>Y <span class="op">=</span> output</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>X_train, X_test, Y_train, Y_test <span class="op">=</span> train_test_split(X, Y, test_size <span class="op">=</span> <span class="fl">.1</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>NBtest <span class="op">=</span> MultinomialNB().fit(X_train,Y_train)</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>nb_predictions <span class="op">=</span> NBtest.predict(X_test)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>acc_nb <span class="op">=</span> NBtest.score(X_test, Y_test)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The Naive Bayes Algorithm has an accuracy of&#39;</span>, acc_nb)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The Naive Bayes Algorithm has an accuracy of 0.8989010989010989
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>RFCtest <span class="op">=</span> RandomForestClassifier().fit(X_train,Y_train)</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>rfc_predictions <span class="op">=</span> RFCtest.predict(X_test)</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>acc_rfc <span class="op">=</span> RFCtest.score(X_test, Y_test)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The Random Forest Algorithm has an accuracy of&#39;</span>, acc_rfc)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The Random Forest Algorithm has an accuracy of 0.9868131868131869
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>SVCtest <span class="op">=</span> SVC().fit(X_train,Y_train)</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>svc_predictions <span class="op">=</span> SVCtest.predict(X_test)</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>acc_svc <span class="op">=</span> SVCtest.score(X_test, Y_test)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The Support Vector Algorithm has an accuracy of&#39;</span>, acc_svc)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The Support Vector Algorithm has an accuracy of 0.9843711843711843
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>KNCtest <span class="op">=</span> KNeighborsClassifier().fit(X_train,Y_train)</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>knc_predictions <span class="op">=</span> KNCtest.predict(X_test)</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>acc_knc <span class="op">=</span> KNCtest.score(X_test, Y_test)</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The K Neighbors Algorithm has an accuracy of&#39;</span>, acc_knc)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The K Neighbors Algorithm has an accuracy of 0.9443223443223443
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>DTCtest <span class="op">=</span> DecisionTreeClassifier().fit(X_train,Y_train)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>dtc_predictions <span class="op">=</span> DTCtest.predict(X_test)</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>acc_dtc <span class="op">=</span> DTCtest.score(X_test, Y_test)</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;The Decision Tree Algorithm has an accuracy of&#39;</span>, acc_dtc)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The Decision Tree Algorithm has an accuracy of 0.9863247863247864
+</code></pre>
+</div>
+</div>
+<section id="part-iii-test" class="cell markdown">
+<h1>Part III: Test</h1>
+</section>
+<section id="entering-hypothetical-titles-to-predict-the-category"
+class="cell markdown">
+<h3>Entering hypothetical titles to predict the category</h3>
+</section>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>Titles <span class="op">=</span> [<span class="st">&quot;Liverpool vs Barcelona football match highlights&quot;</span>]</span></code></pre></div>
+</div>
+<section id="inserting-above-titles-into-each-classifier-model"
+class="cell markdown">
+<h3>Inserting above titles into each classifier model</h3>
+</section>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>Titles_counts <span class="op">=</span> vector.transform(Titles)</span></code></pre></div>
+</div>
+<section id="naive-bayes-model" class="cell markdown">
+<h3>Naive Bayes Model</h3>
+</section>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>PredictNB <span class="op">=</span> NB_Model.predict(Titles_counts)</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>PredictNB</span></code></pre></div>
+<div class="output execute_result" data-execution_count="24">
+<pre><code>array([17], dtype=int64)</code></pre>
+</div>
+</div>
+<section id="random-forest-model" class="cell markdown">
+<h3>Random Forest Model</h3>
+</section>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>PredictRFC <span class="op">=</span> RFC_Model.predict(Titles_counts)</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>PredictRFC</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+<pre><code>array([17], dtype=int64)</code></pre>
+</div>
+</div>
+<section id="svc-model" class="cell markdown">
+<h3>SVC Model</h3>
+</section>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>PredictSVC <span class="op">=</span> SVC_Model.predict(Titles_counts)</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>PredictSVC</span></code></pre></div>
+<div class="output execute_result" data-execution_count="26">
+<pre><code>array([17], dtype=int64)</code></pre>
+</div>
+</div>
+<section id="k-neighbors-model" class="cell markdown">
+<h3>K Neighbors Model</h3>
+</section>
+<div class="cell code" data-execution_count="27">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>PredictKNC <span class="op">=</span> KNC_Model.predict(Titles_counts)</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>PredictKNC</span></code></pre></div>
+<div class="output execute_result" data-execution_count="27">
+<pre><code>array([1], dtype=int64)</code></pre>
+</div>
+</div>
+<section id="decision-tree-model" class="cell markdown">
+<h3>Decision Tree Model</h3>
+</section>
+<div class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>PredictDTC <span class="op">=</span> DTC_Model.predict(Titles_counts)</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>PredictDTC</span></code></pre></div>
+<div class="output execute_result" data-execution_count="28">
+<pre><code>array([17], dtype=int64)</code></pre>
+</div>
+</div>
+<section
+id="output-will-be-an-array-of-numbers-iterate-through-the-category-dictionary-from-json-file-to-find-title"
+class="cell markdown">
+<h3>Output will be an array of numbers. Iterate through the Category
+Dictionary (from JSON file) to find "title"</h3>
+</section>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>CategoryNamesListNB <span class="op">=</span> []</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> Category_ID <span class="kw">in</span> PredictNB:</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>    MatchingCategoriesNB <span class="op">=</span> [x <span class="cf">for</span> x <span class="kw">in</span> category_dict <span class="cf">if</span> x[<span class="st">&quot;id&quot;</span>] <span class="op">==</span> <span class="bu">str</span>(Category_ID)]</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> MatchingCategoriesNB:</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>        CategoryNamesListNB.append(MatchingCategoriesNB[<span class="dv">0</span>][<span class="st">&quot;title&quot;</span>])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>CategoryNamesListRFC <span class="op">=</span> []</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> Category_ID <span class="kw">in</span> PredictRFC:</span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>    MatchingCategoriesRFC <span class="op">=</span> [x <span class="cf">for</span> x <span class="kw">in</span> category_dict <span class="cf">if</span> x[<span class="st">&quot;id&quot;</span>] <span class="op">==</span> <span class="bu">str</span>(Category_ID)]</span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> MatchingCategoriesRFC:</span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>        CategoryNamesListRFC.append(MatchingCategoriesRFC[<span class="dv">0</span>][<span class="st">&quot;title&quot;</span>])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>CategoryNamesListSVC <span class="op">=</span> []</span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> Category_ID <span class="kw">in</span> PredictSVC:</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>    MatchingCategoriesSVC <span class="op">=</span> [x <span class="cf">for</span> x <span class="kw">in</span> category_dict <span class="cf">if</span> x[<span class="st">&quot;id&quot;</span>] <span class="op">==</span> <span class="bu">str</span>(Category_ID)]</span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> MatchingCategoriesSVC:</span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>        CategoryNamesListSVC.append(MatchingCategoriesSVC[<span class="dv">0</span>][<span class="st">&quot;title&quot;</span>])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>CategoryNamesListKNC <span class="op">=</span> []</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> Category_ID <span class="kw">in</span> PredictKNC:</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>    MatchingCategoriesKNC <span class="op">=</span> [x <span class="cf">for</span> x <span class="kw">in</span> category_dict <span class="cf">if</span> x[<span class="st">&quot;id&quot;</span>] <span class="op">==</span> <span class="bu">str</span>(Category_ID)]</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> MatchingCategoriesKNC:</span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a>        CategoryNamesListKNC.append(MatchingCategoriesKNC[<span class="dv">0</span>][<span class="st">&quot;title&quot;</span>])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>CategoryNamesListDTC <span class="op">=</span> []</span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> Category_ID <span class="kw">in</span> PredictDTC:</span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>    MatchingCategoriesDTC <span class="op">=</span> [x <span class="cf">for</span> x <span class="kw">in</span> category_dict <span class="cf">if</span> x[<span class="st">&quot;id&quot;</span>] <span class="op">==</span> <span class="bu">str</span>(Category_ID)]</span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> MatchingCategoriesDTC:</span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a>        CategoryNamesListDTC.append(MatchingCategoriesDTC[<span class="dv">0</span>][<span class="st">&quot;title&quot;</span>])</span></code></pre></div>
+</div>
+<section id="mapping-these-values-to-the-titles-we-want-to-predict"
+class="cell markdown">
+<h3>Mapping these values to the Titles we want to Predict</h3>
+</section>
+<div class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>TitleDataFrameNB <span class="op">=</span> []</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(Titles)):</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>    TitleToCategoriesNB <span class="op">=</span> {<span class="st">&#39;Title&#39;</span>: Titles[i],  <span class="st">&#39;Category&#39;</span>: CategoryNamesListNB[i]}</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>    TitleDataFrameNB.append(TitleToCategoriesNB)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>TitleDataFrameRFC <span class="op">=</span> []</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(Titles)):</span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>    TitleToCategoriesRFC <span class="op">=</span> {<span class="st">&#39;Title&#39;</span>: Titles[i],  <span class="st">&#39;Category&#39;</span>: CategoryNamesListRFC[i]}</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>    TitleDataFrameRFC.append(TitleToCategoriesRFC)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="36">
+<div class="sourceCode" id="cb52"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>TitleDataFrameSVC <span class="op">=</span> []</span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(Titles)):</span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a>    TitleToCategoriesSVC <span class="op">=</span> {<span class="st">&#39;Title&#39;</span>: Titles[i],  <span class="st">&#39;Category&#39;</span>: CategoryNamesListSVC[i]}</span>
+<span id="cb52-4"><a href="#cb52-4" aria-hidden="true" tabindex="-1"></a>    TitleDataFrameSVC.append(TitleToCategoriesSVC)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>TitleDataFrameKNC <span class="op">=</span> []</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(Titles)):</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>    TitleToCategoriesKNC <span class="op">=</span> {<span class="st">&#39;Title&#39;</span>: Titles[i],  <span class="st">&#39;Category&#39;</span>: CategoryNamesListKNC[i]}</span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>    TitleDataFrameKNC.append(TitleToCategoriesKNC)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb54"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>TitleDataFrameDTC <span class="op">=</span> []</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(Titles)):</span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>    TitleToCategoriesDTC <span class="op">=</span> {<span class="st">&#39;Title&#39;</span>: Titles[i],  <span class="st">&#39;Category&#39;</span>: CategoryNamesListDTC[i]}</span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>    TitleDataFrameDTC.append(TitleToCategoriesDTC)</span></code></pre></div>
+</div>
+<section id="converting-the-resulting-dictionary-to-a-data-frame"
+class="cell markdown">
+<h3>Converting the resulting Dictionary to a Data Frame</h3>
+</section>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb55"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>PredictDFnb <span class="op">=</span> pd.DataFrame(PredictNB)</span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>TitleDFnb <span class="op">=</span> pd.DataFrame(TitleDataFrameNB)</span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>PreFinalDFnb <span class="op">=</span> pd.concat([PredictDFnb, TitleDFnb], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a>PreFinalDFnb.columns <span class="op">=</span> ([<span class="st">&#39;Categ_ID&#39;</span>, <span class="st">&#39;Predicted Category&#39;</span>, <span class="st">&#39;Hypothetical Video Title&#39;</span>])</span>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a>FinalDFnb <span class="op">=</span> PreFinalDFnb.drop([<span class="st">&#39;Categ_ID&#39;</span>],axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb55-6"><a href="#cb55-6" aria-hidden="true" tabindex="-1"></a>colsNB <span class="op">=</span> FinalDFnb.columns.tolist()</span>
+<span id="cb55-7"><a href="#cb55-7" aria-hidden="true" tabindex="-1"></a>colsNB <span class="op">=</span> colsNB[<span class="op">-</span><span class="dv">1</span>:] <span class="op">+</span> colsNB[:<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb55-8"><a href="#cb55-8" aria-hidden="true" tabindex="-1"></a>FinalDFnb<span class="op">=</span> FinalDFnb[colsNB]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb56"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>PredictDFrfc <span class="op">=</span> pd.DataFrame(PredictRFC)</span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>TitleDFrfc <span class="op">=</span> pd.DataFrame(TitleDataFrameRFC)</span>
+<span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a>PreFinalDFrfc <span class="op">=</span> pd.concat([PredictDFrfc, TitleDFrfc], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a>PreFinalDFrfc.columns <span class="op">=</span> ([<span class="st">&#39;Categ_ID&#39;</span>, <span class="st">&#39;Predicted Category&#39;</span>, <span class="st">&#39;Hypothetical Video Title&#39;</span>])</span>
+<span id="cb56-5"><a href="#cb56-5" aria-hidden="true" tabindex="-1"></a>FinalDFrfc <span class="op">=</span> PreFinalDFrfc.drop([<span class="st">&#39;Categ_ID&#39;</span>],axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb56-6"><a href="#cb56-6" aria-hidden="true" tabindex="-1"></a>colsRFC <span class="op">=</span> FinalDFrfc.columns.tolist()</span>
+<span id="cb56-7"><a href="#cb56-7" aria-hidden="true" tabindex="-1"></a>colsRFC <span class="op">=</span> colsRFC[<span class="op">-</span><span class="dv">1</span>:] <span class="op">+</span> colsRFC[:<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb56-8"><a href="#cb56-8" aria-hidden="true" tabindex="-1"></a>FinalDFrfc<span class="op">=</span> FinalDFrfc[colsRFC]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="41">
+<div class="sourceCode" id="cb57"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>PredictDFsvc <span class="op">=</span> pd.DataFrame(PredictSVC)</span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>TitleDFsvc <span class="op">=</span> pd.DataFrame(TitleDataFrameSVC)</span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>PreFinalDFsvc <span class="op">=</span> pd.concat([PredictDFsvc, TitleDFsvc], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>PreFinalDFsvc.columns <span class="op">=</span> ([<span class="st">&#39;Categ_ID&#39;</span>, <span class="st">&#39;Predicted Category&#39;</span>, <span class="st">&#39;Hypothetical Video Title&#39;</span>])</span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>FinalDFsvc <span class="op">=</span> PreFinalDFsvc.drop([<span class="st">&#39;Categ_ID&#39;</span>],axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>colsSVC <span class="op">=</span> FinalDFsvc.columns.tolist()</span>
+<span id="cb57-7"><a href="#cb57-7" aria-hidden="true" tabindex="-1"></a>colsSVC <span class="op">=</span> colsSVC[<span class="op">-</span><span class="dv">1</span>:] <span class="op">+</span> colsSVC[:<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb57-8"><a href="#cb57-8" aria-hidden="true" tabindex="-1"></a>FinalDFsvc<span class="op">=</span> FinalDFsvc[colsSVC]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="42">
+<div class="sourceCode" id="cb58"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>PredictDFknc <span class="op">=</span> pd.DataFrame(PredictKNC)</span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>TitleDFknc <span class="op">=</span> pd.DataFrame(TitleDataFrameKNC)</span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a>PreFinalDFknc <span class="op">=</span> pd.concat([PredictDFknc, TitleDFknc], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a>PreFinalDFknc.columns <span class="op">=</span> ([<span class="st">&#39;Categ_ID&#39;</span>, <span class="st">&#39;Predicted Category&#39;</span>, <span class="st">&#39;Hypothetical Video Title&#39;</span>])</span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a>FinalDFknc <span class="op">=</span> PreFinalDFknc.drop([<span class="st">&#39;Categ_ID&#39;</span>],axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a>colsKNC <span class="op">=</span> FinalDFknc.columns.tolist()</span>
+<span id="cb58-7"><a href="#cb58-7" aria-hidden="true" tabindex="-1"></a>colsKNC <span class="op">=</span> colsKNC[<span class="op">-</span><span class="dv">1</span>:] <span class="op">+</span> colsKNC[:<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb58-8"><a href="#cb58-8" aria-hidden="true" tabindex="-1"></a>FinalDFknc<span class="op">=</span> FinalDFknc[colsKNC]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="43">
+<div class="sourceCode" id="cb59"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>PredictDFdtc <span class="op">=</span> pd.DataFrame(PredictDTC)</span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a>TitleDFdtc <span class="op">=</span> pd.DataFrame(TitleDataFrameDTC)</span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a>PreFinalDFdtc <span class="op">=</span> pd.concat([PredictDFdtc, TitleDFdtc], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a>PreFinalDFdtc.columns <span class="op">=</span> ([<span class="st">&#39;Categ_ID&#39;</span>, <span class="st">&#39;Predicted Category&#39;</span>, <span class="st">&#39;Hypothetical Video Title&#39;</span>])</span>
+<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a>FinalDFdtc <span class="op">=</span> PreFinalDFdtc.drop([<span class="st">&#39;Categ_ID&#39;</span>],axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a>colsDTC <span class="op">=</span> FinalDFdtc.columns.tolist()</span>
+<span id="cb59-7"><a href="#cb59-7" aria-hidden="true" tabindex="-1"></a>colsDTC <span class="op">=</span> colsDTC[<span class="op">-</span><span class="dv">1</span>:] <span class="op">+</span> colsDTC[:<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb59-8"><a href="#cb59-8" aria-hidden="true" tabindex="-1"></a>FinalDFdtc<span class="op">=</span> FinalDFdtc[colsDTC]</span></code></pre></div>
+</div>
+<section id="viewing-the-final-prediction-results"
+class="cell markdown">
+<h3>Viewing the Final Prediction Results</h3>
+</section>
+<section id="demo" class="cell markdown">
+<h1>Demo</h1>
+</section>
+<div class="cell code" data-execution_count="44">
+<div class="sourceCode" id="cb60"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a>Titles <span class="op">=</span> [<span class="st">&quot;Liverpool vs Barcelona football match highlights&quot;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="45">
+<div class="sourceCode" id="cb61"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a>Titles_counts <span class="op">=</span> vector.transform(Titles)</span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a>PredictDTC <span class="op">=</span> DTC_Model.predict(Titles_counts)</span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a>CategoryNamesListDTC <span class="op">=</span> []</span>
+<span id="cb61-5"><a href="#cb61-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> Category_ID <span class="kw">in</span> PredictDTC:</span>
+<span id="cb61-6"><a href="#cb61-6" aria-hidden="true" tabindex="-1"></a>    MatchingCategoriesDTC <span class="op">=</span> [x <span class="cf">for</span> x <span class="kw">in</span> category_dict <span class="cf">if</span> x[<span class="st">&quot;id&quot;</span>] <span class="op">==</span> <span class="bu">str</span>(Category_ID)]</span>
+<span id="cb61-7"><a href="#cb61-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> MatchingCategoriesDTC:</span>
+<span id="cb61-8"><a href="#cb61-8" aria-hidden="true" tabindex="-1"></a>        CategoryNamesListDTC.append(MatchingCategoriesDTC[<span class="dv">0</span>][<span class="st">&quot;title&quot;</span>])</span>
+<span id="cb61-9"><a href="#cb61-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-10"><a href="#cb61-10" aria-hidden="true" tabindex="-1"></a>TitleDataFrameDTC <span class="op">=</span> []</span>
+<span id="cb61-11"><a href="#cb61-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(Titles)):</span>
+<span id="cb61-12"><a href="#cb61-12" aria-hidden="true" tabindex="-1"></a>    TitleToCategoriesDTC <span class="op">=</span> {<span class="st">&#39;Title&#39;</span>: Titles[i],  <span class="st">&#39;Category&#39;</span>: CategoryNamesListDTC[i]}</span>
+<span id="cb61-13"><a href="#cb61-13" aria-hidden="true" tabindex="-1"></a>    TitleDataFrameDTC.append(TitleToCategoriesDTC)</span>
+<span id="cb61-14"><a href="#cb61-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb61-15"><a href="#cb61-15" aria-hidden="true" tabindex="-1"></a>PredictDFdtc <span class="op">=</span> pd.DataFrame(PredictDTC)</span>
+<span id="cb61-16"><a href="#cb61-16" aria-hidden="true" tabindex="-1"></a>TitleDFdtc <span class="op">=</span> pd.DataFrame(TitleDataFrameDTC)</span>
+<span id="cb61-17"><a href="#cb61-17" aria-hidden="true" tabindex="-1"></a>PreFinalDFdtc <span class="op">=</span> pd.concat([PredictDFdtc, TitleDFdtc], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb61-18"><a href="#cb61-18" aria-hidden="true" tabindex="-1"></a>PreFinalDFdtc.columns <span class="op">=</span> ([<span class="st">&#39;Categ_ID&#39;</span>, <span class="st">&#39;Predicted Category&#39;</span>, <span class="st">&#39;Hypothetical Video Title&#39;</span>])</span>
+<span id="cb61-19"><a href="#cb61-19" aria-hidden="true" tabindex="-1"></a>FinalDFdtc <span class="op">=</span> PreFinalDFdtc.drop([<span class="st">&#39;Categ_ID&#39;</span>],axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb61-20"><a href="#cb61-20" aria-hidden="true" tabindex="-1"></a>colsDTC <span class="op">=</span> FinalDFdtc.columns.tolist()</span>
+<span id="cb61-21"><a href="#cb61-21" aria-hidden="true" tabindex="-1"></a>colsDTC <span class="op">=</span> colsDTC[<span class="op">-</span><span class="dv">1</span>:] <span class="op">+</span> colsDTC[:<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb61-22"><a href="#cb61-22" aria-hidden="true" tabindex="-1"></a>FinalDFdtc<span class="op">=</span> FinalDFdtc[colsDTC]</span>
+<span id="cb61-23"><a href="#cb61-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-24"><a href="#cb61-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Decision Trees</span></span>
+<span id="cb61-25"><a href="#cb61-25" aria-hidden="true" tabindex="-1"></a>FinalDFdtc</span></code></pre></div>
+<div class="output execute_result" data-execution_count="45">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Hypothetical Video Title</th>
+      <th>Predicted Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Sports</td>
+      <td>Liverpool vs Barcelona football match highlights</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb62"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
